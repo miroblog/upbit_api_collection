@@ -7,6 +7,10 @@ This repo contains api for upbit exchange.
 ### upbit_trader_api.py : 
   handles api request (create order/ check order status/ cancel order/ get order book/ get ohlcv candle ...)  
 
+
+Juypter Notebooks (examples)
+[upbit_trader_api](https://github.com/miroblog/upbit_api_collection/blob/master/example_upbit_trader_api.ipynb) / [cralwer_server](https://github.com/miroblog/upbit_api_collection/blob/master/crawler_server_example.ipynb)
+
 ## Getting Started
 
 ```
@@ -57,8 +61,6 @@ upbit_trader_api.cancel_order(uuid)
 upbit_trader_api.get_order_info(uuid)
 
 ```
-
-[upbit_trader_api](https://github.com/miroblog/upbit_api_collection/blob/master/example_upbit_trader_api.ipynb) / [cralwer_server](https://github.com/miroblog/upbit_api_collection/blob/master/crawler_server_example.ipynb)
 
 ```python
 ohlcv['close'].plot()
