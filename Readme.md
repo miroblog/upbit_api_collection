@@ -1,15 +1,15 @@
 # Upbit API Collections
 
-This repo contains api for upbit exchange.  
+This repo contains api for upbit exchange. Creates appropriate request headers ...    
+
 ### cralwer_server.py :   
   saves recent ohlcv(open-high-low-close-volume) candle as pandas dataframe  
-
+ [JuypterNotebook](https://github.com/miroblog/upbit_api_collection/blob/master/crawler_server_example.ipynb)  
+ 
 ### upbit_trader_api.py : 
   handles api request (create order/ check order status/ cancel order/ get order book/ get ohlcv candle ...)  
+[JuypterNotebook](https://github.com/miroblog/upbit_api_collection/blob/master/example_upbit_trader_api.ipynb)  
 
-
-Juypter Notebooks (examples)
-[upbit_trader_api](https://github.com/miroblog/upbit_api_collection/blob/master/example_upbit_trader_api.ipynb) / [cralwer_server](https://github.com/miroblog/upbit_api_collection/blob/master/crawler_server_example.ipynb)
 
 ## Getting Started
 
