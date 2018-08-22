@@ -1,12 +1,15 @@
 # Upbit API Collections
 
 This repo contains api for upbit exchange.  
-cralwer_server.py : saves recent ohlcv(open-high-low-close-volume) candle as pandas dataframe  
-upbit_trader_api.py : handles api request (create order/ check order status/ cancel order/ get order book/ get ohlcv candle ...)  
+cralwer_server.py :   
+  saves recent ohlcv(open-high-low-close-volume) candle as pandas dataframe  
+
+upbit_trader_api.py : 
+  handles api request (create order/ check order status/ cancel order/ get order book/ get ohlcv candle ...)  
 
 ## Getting Started
 
-```python
+```
 
 $ python cralwer_server.py -t "KRW-BTC" -p "./data/" -m 5 -c 400 -l 15000
 
