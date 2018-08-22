@@ -2,6 +2,14 @@
 
 This repo contains api for upbit exchange. Creates appropriate request headers ...    
 
+### Prerequisites
+
+common library such as numpy, pandas matplotlib
+
+```python
+pip install -r requirements.txt
+```
+
 ### cralwer_server.py :   
   saves recent ohlcv(open-high-low-close-volume) candle as pandas dataframe  
  [JuypterNotebook- cralwer_server](https://github.com/miroblog/upbit_api_collection/blob/master/crawler_server_example.ipynb)  
@@ -14,6 +22,7 @@ This repo contains api for upbit exchange. Creates appropriate request headers .
 ## Getting Started
 
 ```
+## usage for cralwer_server
 
 $ python cralwer_server.py -t "KRW-BTC" -p "./data/" -m 5 -c 400 -l 15000
 
@@ -35,14 +44,6 @@ optional arguments:
 
 ```
 
-
-### Prerequisites
-
-common library such as numpy, pandas matplotlib
-
-```python
-pip install -r requirements.txt
-```
 
 ```
 ## usage for upbit_trader_api
