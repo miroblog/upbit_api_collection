@@ -43,7 +43,19 @@ optional arguments:
                         provide total length e.g. 15000
 
 ```
+```python
+ohlcv['close'].plot()
+plot.show()
+```
+![close](https://github.com/miroblog/upbit_api_collection/blob/master/png/close.png)
 
+
+```python
+show_limit = 20 # plot latest 20 candles
+candlestick_ohlc(ax1, df_ohlc.values[-show_limit:], width=0.001, colorup='g')
+plt.show()
+```
+![candle](https://github.com/miroblog/upbit_api_collection/blob/master/png/ohlc.png)
 
 ```
 ## usage for upbit_trader_api
@@ -62,20 +74,6 @@ upbit_trader_api.cancel_order(uuid)
 upbit_trader_api.get_order_info(uuid)
 
 ```
-
-```python
-ohlcv['close'].plot()
-plot.show()
-```
-![close](https://github.com/miroblog/upbit_api_collection/blob/master/png/close.png)
-
-
-```python
-show_limit = 20 # plot latest 20 candles
-candlestick_ohlc(ax1, df_ohlc.values[-show_limit:], width=0.001, colorup='g')
-plt.show()
-```
-![candle](https://github.com/miroblog/upbit_api_collection/blob/master/png/ohlc.png)
 
 ## Authors
 
