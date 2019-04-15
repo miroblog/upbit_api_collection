@@ -7,17 +7,17 @@
         {
           "type": "basic",
           "from": {
-            "key_code": "tab",
+            "key_code": "left_alt",
             "modifiers": {
               "mandatory": [
-                "left_alt"
+                "tab"
               ]
             }
           },
           "to": {
-            "key_code": "tab",
+            "key_code": "command",
             "modifiers": [
-              "command"
+              "tab"
             ]
           }
         }
