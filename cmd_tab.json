@@ -15,7 +15,7 @@
             }
           },
           "to": {
-            "key_code": "command",
+            "key_code": "left_gui",
             "modifiers": [
               "tab"
             ]
