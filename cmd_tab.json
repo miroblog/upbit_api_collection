@@ -1,8 +1,8 @@
 {
-  "title": "Command_R + Shift_R to Command + Tab",
+  "title": "right_alt + tab to command + tab",
   "rules": [
     {
-      "description": "Command_R + Shift_R to Command +Tab",
+      "description": "right_alt + tab to command + tab",
       "manipulators": [
         {
           "type": "basic",
