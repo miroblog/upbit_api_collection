@@ -7,17 +7,17 @@
         {
           "type": "basic",
           "from": {
-            "key_code": "c",
+            "key_code": "left_ctrl",
             "modifiers": {
               "mandatory": [
-                "left_ctrl"
+                "c"
               ]
             }
           },
           "to": {
-            "key_code": "c",
+            "key_code": "command",
             "modifiers": [
-              "left_gui"
+              "c"
             ]
           }
         }
