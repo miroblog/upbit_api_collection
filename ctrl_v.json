@@ -1,0 +1,27 @@
+{
+  "title": "ctrl + v",
+  "rules": [
+    {
+      "description": "ctrl + v ",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "left_ctrl",
+            "modifiers": {
+              "mandatory": [
+                "v"
+              ]
+            }
+          },
+          "to": {
+            "key_code": "command",
+            "modifiers": [
+              "v"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
