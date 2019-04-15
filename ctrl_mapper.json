@@ -1,0 +1,66 @@
+{
+  "title": "ctrl + somekey",
+  "rules": [
+    {
+      "description": "ctrl+c -> command +c",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "c",
+            "modifiers": {
+              "mandatory": [
+                "left_ctrl"
+              ]
+            }
+          },
+          "to": {
+            "key_code": "c",
+            "modifiers": [
+              "command"
+            ]
+          }
+        },
+            {
+      "description": "ctrl+c -> command +v",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "v",
+            "modifiers": {
+              "mandatory": [
+                "left_ctrl"
+              ]
+            }
+          },
+          "to": {
+            "key_code": "v",
+            "modifiers": [
+              "command"
+            ]
+          }
+        },        
+      "description": "ctrl+c -> command +v",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "w",
+            "modifiers": {
+              "mandatory": [
+                "left_ctrl"
+              ]
+            }
+          },
+          "to": {
+            "key_code": "w",
+            "modifiers": [
+              "command"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
